@@ -8,11 +8,11 @@ package myconcrete;
  *
  * @author chris
  */
-public class HourlyEmployee {
+public class HourlyEmployee extends Employee {
     
-    
-    public double getWeeeklyPay(int hours, double payrate){
-        return hours * payrate;
+     public void setName() {
+         System.out.println("bark");
     }
+  
     
 }

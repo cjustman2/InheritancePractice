@@ -9,11 +9,12 @@ package myconcrete;
  * @author chris
  */
 public class StartProgram {
-
+public static void main(String[] args) {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+HourlyEmployee hourlyemp = new HourlyEmployee();
+
+    System.out.println ("Name is " + hourlyemp.getName());
+}
 }
