@@ -10,4 +10,9 @@ package myconcrete;
  */
 public class HourlyEmployee {
     
+    
+    public double getWeeeklyPay(int hours, double payrate){
+        return hours * payrate;
+    }
+    
 }
