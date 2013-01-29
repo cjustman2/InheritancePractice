@@ -8,40 +8,13 @@ package myinterface;
  *
  * @author chris
  */
-public class SalaryPlusBonusEmloyee implements Employee {
-         private double pay;
-    private int hours;
-    private double gross;
-    private String name;
+public class SalaryPlusBonusEmloyee extends SalariedEmployee {
+ 
     private double bonus;
-    
-    @Override
-    public void setPay(double pay){
-       this.pay = pay;
-    }
-       @Override
-    public void setHours(int hours){};
-       
-    @Override
-    public void setGross(double gross){
-        this.gross = gross;
-    }
-    @Override
-    public double getGross(){
-        gross = pay * 52;
-        return gross;
-    }
-    @Override
-    public void setName(String name){
-        this.name = name;
-    }
-    @Override
-    public String getName(){
-        return name;
-    }
+
     
     public double getBonus(){
-        bonus = pay * .1;
+        bonus = getPay() * .1;
         return bonus;
     }
     

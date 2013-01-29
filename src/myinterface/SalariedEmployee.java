@@ -18,6 +18,10 @@ public class SalariedEmployee implements Employee{
     public void setPay(double pay){
        this.pay = pay;
     }
+    
+    public double getPay(){
+        return pay;
+    }
        @Override
     public void setHours(int hours){};
        
