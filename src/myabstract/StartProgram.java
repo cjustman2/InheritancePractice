@@ -37,7 +37,7 @@ public class StartProgram {
 //
 //
 //    System.out.println ("Name is " + hourlyemp.getName() + " \nPay is " + 
-//            hourlyemp.getPay());
+//            hourlyemp.getGross());
     
     
     
@@ -49,6 +49,6 @@ hourlyemp.setPay(1000);
 
 
     System.out.println ("Name is " + hourlyemp.getName() + " \nPay is " + 
-            hourlyemp.getPay()+ "\nBonus is " + hourlyemp.getBonus());
+            hourlyemp.getGross()+ "\nBonus is " + hourlyemp.getBonus());
     }
 }

@@ -8,6 +8,11 @@ package myconcrete;
  *
  * @author chris
  */
-public class SalaryPlusBonusEmployee extends Employee {
+public class SalaryPlusBonusEmployee extends SalariedEmployee {
+    private double bonus;
     
+    public double getBonus(){ 
+         bonus = getPay() * .1;
+         return bonus;
+    }
 }

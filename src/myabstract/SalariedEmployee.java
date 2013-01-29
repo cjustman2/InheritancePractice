@@ -11,6 +11,7 @@ package myabstract;
 public class SalariedEmployee extends Employee {
     private double pay;
     private double gross;
+    
 
     
     public void setPay(double pay){
@@ -18,7 +19,11 @@ public class SalariedEmployee extends Employee {
     }
     
     public double getPay(){
-        gross = pay * 52;
+        return pay;
+    }
+    
+    public double getGross(){
+        gross = pay * .1;
         return gross;
     }
     
