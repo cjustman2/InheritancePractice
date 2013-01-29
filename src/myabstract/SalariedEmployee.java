@@ -8,6 +8,20 @@ package myabstract;
  *
  * @author chris
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee {
+    private double pay;
+    private double gross;
+
+    
+    public void setPay(double pay){
+        this.pay = pay;
+    }
+    
+    public double getPay(){
+        gross = pay * 52;
+        return gross;
+    }
+    
+  
     
 }

@@ -18,9 +18,10 @@ public abstract class Employee {
          return name;
      }
      
-     public void setPay(){
-         
-     }
+     abstract public void setPay(double pay);
+     
+     abstract public double getPay();
+     
          
      
 }

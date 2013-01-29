@@ -22,6 +22,7 @@ public class HourlyEmployee extends Employee {
    }
    
    public double getPay(){
+       gross = pay * hours;
        return gross;
    }
     
