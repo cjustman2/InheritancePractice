@@ -25,14 +25,26 @@ public class StartProgram {
 //            hourlyemp.getGross());
     
     
-            SalariedEmployee hourlyemp = new SalariedEmployee();
+//            SalariedEmployee hourlyemp = new SalariedEmployee();
+//
+//hourlyemp.setName("John");
+//
+//hourlyemp.setPay(1000);
+//
+//
+//    System.out.println ("Name is " + hourlyemp.getName() + " \nPay is " + 
+//            hourlyemp.getGross() + " a year.");
+    
+    
+        SalaryPlusBonusEmloyee hourlyemp = new SalaryPlusBonusEmloyee();
 
-hourlyemp.setName("Mike");
+hourlyemp.setName("John");
 
-hourlyemp.setPay(1000.00);
+hourlyemp.setPay(1000);
 
 
     System.out.println ("Name is " + hourlyemp.getName() + " \nPay is " + 
-            hourlyemp.getGross() + " a year.");
+            hourlyemp.getGross() + " a year." + "\n" + hourlyemp.getBonus() + 
+            " is your bonus");
     }
 }
