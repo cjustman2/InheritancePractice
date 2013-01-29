@@ -14,7 +14,7 @@ public static void main(String[] args) {
      * @param args the command line arguments
      */
 HourlyEmployee hourlyemp = new HourlyEmployee();
-
+hourlyemp.setName("bark");
     System.out.println ("Name is " + hourlyemp.getName());
 }
 }

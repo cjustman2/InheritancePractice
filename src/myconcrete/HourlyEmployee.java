@@ -10,9 +10,7 @@ package myconcrete;
  */
 public class HourlyEmployee extends Employee {
     
-     public void setName() {
-         System.out.println("bark");
-    }
+   
   
     
 }
