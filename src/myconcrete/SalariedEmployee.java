@@ -12,6 +12,7 @@ public class SalariedEmployee extends Employee{
         private double pay;
     private double gross;
     
+    //set pay and get pay
    public void setPay(double pay){
        this.pay = pay;
    }
@@ -20,6 +21,7 @@ public class SalariedEmployee extends Employee{
        return pay;
    }
    
+   //getting gross per week
   public double getGross(){
       gross = pay * 52;
   return gross;

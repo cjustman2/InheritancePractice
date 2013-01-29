@@ -10,7 +10,7 @@ package myconcrete;
  */
 public class Employee{
     String name;
-    
+    //set and get name method which is common among all classes
     public void setName(String name){
         this.name = name;
     }

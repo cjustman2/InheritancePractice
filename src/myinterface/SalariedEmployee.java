@@ -10,10 +10,9 @@ package myinterface;
  */
 public class SalariedEmployee implements Employee{
       private double pay;
-    private int hours;
     private double gross;
     private String name;
-    
+    //methods used to set and get pay
     @Override
     public void setPay(double pay){
        this.pay = pay;
@@ -22,18 +21,19 @@ public class SalariedEmployee implements Employee{
     public double getPay(){
         return pay;
     }
+    
+    //method for hours even though it's not used becouse of interface
        @Override
     public void setHours(int hours){};
        
-    @Override
-    public void setGross(double gross){
-        this.gross = gross;
-    }
+       //used to get gross pay per week
     @Override
     public double getGross(){
         gross = pay * 52;
         return gross;
     }
+    
+    //set and get name
     @Override
     public void setName(String name){
         this.name = name;

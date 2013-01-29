@@ -13,7 +13,7 @@ public class HourlyEmployee implements Employee{
     private int hours;
     private double gross;
     private String name;
-    
+    //set pay and hours for hourly employee
     @Override
     public void setPay(double pay){
        this.pay = pay;
@@ -22,15 +22,15 @@ public class HourlyEmployee implements Employee{
     public void setHours(int hours){
         this.hours = hours;
     }
-    @Override
-    public void setGross(double gross){
-        this.gross = gross;
-    }
+    
+    //get gross pay for week
     @Override
     public double getGross(){
         gross = pay * hours;
         return gross;
     }
+    
+    //set and get name
     @Override
     public void setName(String name){
         this.name = name;

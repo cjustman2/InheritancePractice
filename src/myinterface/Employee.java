@@ -9,10 +9,10 @@ package myinterface;
  * @author chris
  */
 public interface Employee {
+    /*abstract methods in interface*/
     public void setPay(double pay);
     public void setHours(int hours);
     public void setName(String name);
     public String getName();
-    public void setGross(double gross);
     public double getGross();
 }

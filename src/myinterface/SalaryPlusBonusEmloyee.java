@@ -12,7 +12,7 @@ public class SalaryPlusBonusEmloyee extends SalariedEmployee {
  
     private double bonus;
 
-    
+    //getting bonus for salaried employee
     public double getBonus(){
         bonus = getPay() * .1;
         return bonus;

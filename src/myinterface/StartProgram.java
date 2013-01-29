@@ -14,6 +14,8 @@ public class StartProgram {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        
 //        HourlyEmployee hourlyemp = new HourlyEmployee();
 //
 //hourlyemp.setName("Mike");

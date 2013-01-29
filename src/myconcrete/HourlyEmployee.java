@@ -13,6 +13,7 @@ public class HourlyEmployee extends Employee {
     private int hours;
     private double gross;
     
+    //set pay and hours
    public void setPay(double pay){
        this.pay = pay;
    }
@@ -21,6 +22,7 @@ public class HourlyEmployee extends Employee {
        this.hours = hours;
    }
    
+   //getting gross pay for hours worked
   public double getGross(){
       gross = pay * hours;
   return gross;

@@ -11,6 +11,7 @@ package myabstract;
 public abstract class Employee {
     private String name;
     
+    //set and get methods for all classes
     public void setName(String name){
         this.name = name;
     }
@@ -18,6 +19,8 @@ public abstract class Employee {
          return name;
      }
      
+     
+     //abstract methods for classes
      abstract public void setPay(double pay);
      
      abstract public double getPay();
